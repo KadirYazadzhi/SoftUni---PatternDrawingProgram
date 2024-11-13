@@ -135,15 +135,15 @@ The project includes twelve different patterns:
 9. **Diamond (Numbers)**  
    - User specifies the number of rows for the diamond’s top half.  
    - Example for input of 4:
-    ```
-       1
-      121
-     12321
-    1234321
-     12321
-      121
-       1
-    ```
+     ```
+        1
+       121
+      12321
+     1234321
+      12321
+       121
+        1
+     ```
 
 10. **Mirrored Right-angled Triangle**  
    - User specifies number of rows.  
