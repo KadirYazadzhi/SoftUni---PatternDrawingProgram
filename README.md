@@ -208,8 +208,16 @@ The program has options to select each pattern:
 - Enhance console-based visualization with color and other formatting options (if supported).
 - Develop a graphical user interface (GUI) for a more engaging experience.
 
+
 ## 💡 Project Insights
 This project provides an engaging way to practice nested loops and user input in C#, while creating visually appealing console outputs. It also offers an interactive experience that showcases basic programming skills in pattern generation.
+
+
+## 🎓 Credits
+
+This project is based on the **"Pattern Drawing"** exercise created by [Mario Zahariev](https://github.com/zahariev-webbersof/) for Python developers. However, I adapted the task and implemented it in C#. You can view the original task [here](https://github.com/zahariev-webbersof/python-fundamentals-09-2024-/blob/main/Pattern%20Drawing.md).
+
+Special thanks to Mario Zahariev for providing a great foundational exercise.
 
 
 ## 💾 **Contribution**
