@@ -186,7 +186,7 @@ The project includes twelve different patterns:
 2. **Running Locally**:
    - Clone the repository using the command:
      ```
-     git clone https://github.com/your-username/PatternDrawingProject.git
+     git clone https://github.com/KadirYazadzhi/SoftUni---PatternDrawingProgram.git
      ```
    - Open the project in Visual Studio.
    - Build and run the project.
