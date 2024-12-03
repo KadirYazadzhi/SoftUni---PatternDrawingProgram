@@ -146,36 +146,39 @@ The project includes twelve different patterns:
      ```
 
 10. **Mirrored Right-angled Triangle**  
-   - User specifies number of rows.  
-   - Example for input of 5:
-     ```
-         *
-        **
-       ***
-      ****
-     *****
-     ```
+      - User specifies number of rows.  
+      - Example for input of 5:
+        ```
+            *
+           **
+          ***
+         ****
+        *****
+        ```
 
 11. **Alternating Star-Dash Square**  
-   - User specifies square size.  
-   - Example for input of 5:
-     ```
-     *-*-*
-     -*-*-
-     *-*-*
-     -*-*-
-     *-*-*
-     ```
+      - User specifies square size.  
+      - Example for input of 5:
+        ```
+        *-*-*
+        -*-*-
+        *-*-*
+        -*-*-
+        *-*-*
+        ```
 
 12. **Hourglass Shape**  
-   - User specifies number of rows.  
-   - Example for input of 4:
-     ```
-     *-*-*
-     -*-*-
-     *-*-*
-     -*-*-
-     ```
+      - User specifies number of rows.  
+      - Example for input of 7:
+        ```
+         *******
+          *****
+           ***
+            *
+           ***
+          *****
+         *******
+        ```
 
 ## 📦 **Installation & Setup**
 
