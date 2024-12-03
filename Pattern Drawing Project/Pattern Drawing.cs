@@ -78,11 +78,7 @@ public class PatternDrawing  : Pattern{
                 AlternatingStarDashSquare(int.Parse(Console.ReadLine()));
                 break;
             case 12:
-                int rows = int.Parse(Console.ReadLine());
-                Console.Write("Enter number of cols: ");
-                int cols = int.Parse(Console.ReadLine());
-                
-                HourglassShape(rows, cols);
+                HourglassShape(int.Parse(Console.ReadLine()));
                 break;
             default:
                 throw new FormatException();
@@ -273,27 +269,15 @@ public class Pattern {
         }
     }
     
-    public static void HourglassShape(int row, int col) {
-        for (int i = 0; i < col; i++) {
-            for (int j = 0; j < row; j++) {
-                if (i % 2 == 0) {
-                    if (j % 2 == 0) {
-                        Console.Write("*");
-                    }
-                    else {
-                        Console.Write("-");
-                    }
-                }
-                else {
-                    if (j % 2 != 0) {
-                        Console.Write("*");
-                    }
-                    else {
-                        Console.Write("-");
-                    }
-                }
-            }
-            Console.WriteLine();
+    public static void HourglassShape(int n) {
+        for (int i = 0; i <= n / 2; i++) {
+            Console.Write(new string(' ', i)); 
+            Console.WriteLine(new string('*', n - 2 * i)); 
+        }
+
+        for (int i = n / 2 - 1; i >= 0; i--) {
+            Console.Write(new string(' ', i)); 
+            Console.WriteLine(new string('*', n - 2 * i));
         }
     }
 }
